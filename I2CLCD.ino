@@ -8,11 +8,11 @@ LiquidCrystal_I2C lcd(0x27, totalColumns, totalRows);
 
 String staticMessage = "Group 6 members";
 String scrollingMessage[5] = {
-  "Carol Atieno - Member",
-  "Hope Prince - Member",
-  "Muthee Brain - Member",
-  "Joy Nyayieka - Member",
-  "Tole Rightson- Member"
+  "Carol - Member",
+  "Hope- Member",
+  "Brain - Member",
+  "Joy - Member",
+  "Tole- Member"
 };
 
 void scrollMessage(int row, String message, int delayTime, int totalColumns) {
